@@ -8,7 +8,7 @@ class SpringBootSampleApplicationTests {
 
 	@Test
 	void contextLoads() {
-		
+	System.out.println("Child branch created");	
 		
 	}
 

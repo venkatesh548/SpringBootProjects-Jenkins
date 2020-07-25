@@ -18,7 +18,11 @@ public class CashingSample {
 	public Employee getCashing(@PathVariable String id) {
 		
 		System.out.println("This is sample spring appln "+id);		
+
 		System.out.println("Workspace one "+id);
+
+		System.out.println("This is sample spring appln new changes Two "+id);	
+
 		return sampleService.getStudentById(id);
 		
 	}

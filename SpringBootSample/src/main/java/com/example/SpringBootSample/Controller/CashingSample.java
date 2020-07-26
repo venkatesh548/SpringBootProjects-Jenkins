@@ -22,6 +22,9 @@ public class CashingSample {
 		System.out.println("Workspace one "+id);
 
 		System.out.println("This is sample spring appln new changes Two "+id);	
+		
+
+		System.out.println("This is sample spring appln new changes Third push....... "+id);	
 
 		return sampleService.getStudentById(id);
 		
